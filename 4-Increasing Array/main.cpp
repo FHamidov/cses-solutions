@@ -32,7 +32,6 @@ void solve(){
         }
         else pre=x;
     }   
-   
     cout<<ans<<endl;
     return;
 }

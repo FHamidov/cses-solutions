@@ -22,14 +22,19 @@
 using namespace std;
 
 void solve(){
-    
+    ll a,b;
+    cin>>a>>b;
+    if((a+b)%3==0 and 2*min(a,b)>=max(a,b)){
+        cout<<"YES"<<endl;
+    }
+    else cout<<"NO"<<endl;
 }
 
 int main(){
     IO;
     int t;
-    //cin>>t;
-    t=1;
+    cin>>t;
+    //t=1;
     while(t--){
         solve();
     }
